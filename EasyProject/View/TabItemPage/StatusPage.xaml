@@ -1,0 +1,737 @@
+﻿<Page x:Class="EasyProject.View.TabItemPage.StatusPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EasyProject.View.TabItemPage"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:wookoa="clr-namespace:System;assembly=mscorlib"
+      xmlns:vm ="clr-namespace:EasyProject.ViewModel" 
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf" xmlns:model="clr-namespace:EasyProject.Model"
+      mc:Ignorable="d" 
+      DataContext="{Binding PSVM, Source={StaticResource Locator}}"
+      Title="StatusPage">
+      
+    <Page.Resources>
+        <local:IsLesserThanConverter x:Key="IsLesserThanConverter" />
+        <local:IsEqualOrLessGreaterThanConverter x:Key="IsEqualOrLessGreaterThanConverter" />
+        <local:IsGreaterThanConverter x:Key="IsGreaterThanConverter" />
+        
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="LightGray"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+
+        <Style TargetType="DataGrid">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="VerticalGridLinesBrush" Value="#4472C4"/>
+            <Setter Property="HorizontalGridLinesBrush" Value="#4472C4"/>
+            <Setter Property="RowHeight" Value="32"/>
+            <Setter Property="RowHeaderWidth" Value="0"/>
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="IsReadOnly" Value="True"></Setter>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding PSVM.IsToolTipChecked, Source={StaticResource Locator}}" Value="False">
+                    <Setter Property="IsReadOnly" Value="False"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+
+    </Page.Resources>
+    <materialDesign:DialogHost x:Name="DialogHost">
+        <materialDesign:DialogHost.DialogContent>
+            <StackPanel Margin="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <materialDesign:PackIcon Kind="Error" Foreground="#4472C4"
+                                                 Height="48"
+                                                 Width="48"
+                                                 Margin="20, 25, 20, 20"
+                                                 Grid.Column="0" />
+                    <StackPanel Margin="20" Grid.Column="1"  MinWidth="180">
+                        <TextBlock Text="재고수정" FontSize="15" FontWeight="UltraBold"></TextBlock>
+                        <TextBlock Text="재고수정 하시겠습니까?" FontSize="13" FontWeight="SemiBold"
+                                       Margin="0,20,0,0"></TextBlock>
+                    </StackPanel>
+                </Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button Content="취소" Background="#EAEAEA" Foreground="Black"
+                            Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}"></Button>
+                    <Button Content="확인" Background="#4472C4" Foreground="White" Margin="30,0,0,0"
+                            Command="{Binding ProductEditCommand}"></Button>
+
+                </StackPanel>
+            </StackPanel>
+        </materialDesign:DialogHost.DialogContent>
+        <Grid Height="500" Width="1200" Background="White" VerticalAlignment="Top" HorizontalAlignment="Center">
+        
+            <Grid Background="White" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0"/>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="1" Margin="10 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60*"/>
+                    <ColumnDefinition Width="320*"/>
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="60*"/>
+                    <ColumnDefinition Width="60*"/>
+                    <ColumnDefinition Width="60*"/>
+                </Grid.ColumnDefinitions>
+
+
+
+                <CheckBox x:Name="DataGridCheckbox" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" Grid.Column="4" HorizontalAlignment="Right" IsChecked="True" Content="표보기" Cursor="Hand" Click="DataGridCheckboxClick"></CheckBox>
+                <CheckBox x:Name="GraphCheckbox" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" Grid.Column="5" HorizontalAlignment="Right" IsChecked="True" Content="그래프보기" Cursor="Hand" Click="GraphCheckboxClick"></CheckBox>
+
+
+                <Label Content="부서명" Foreground="#4472C4" Grid.Column="2" FontSize="12" 
+                       FontWeight="Bold" HorizontalAlignment="Right"  
+                       VerticalAlignment="Center" Margin="10"/>
+
+                <ComboBox x:Name="deptName_ComboBox1" Height="30" Grid.Column="3" HorizontalContentAlignment="Left" 
+                       ItemsSource="{Binding Path=Depts}" SelectedItem="{Binding SelectedDept}" DropDownClosed="OnDropDownOpened">
+                    <ComboBox.Resources>
+                        <SolidColorBrush x:Key="MaterialDesignPaper" Color="White"/>
+                    </ComboBox.Resources>
+
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Dept_name}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="SelectionChanged">
+                            <i:InvokeCommandAction Command="{Binding Command}" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </ComboBox>
+                    <TextBlock x:Name="dept_TextBox" Grid.Column="3" Visibility="Hidden" VerticalAlignment="Center"/>
+                </Grid>
+                <Grid x:Name="DataAndGraphGrid" Grid.Row="2" >
+                    <Grid.ColumnDefinitions>
+                    <ColumnDefinition x:Name="DataGridColumn" Width="1.8*"/>
+                    <ColumnDefinition x:Name="GraphColumn" Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid x:Name="DataGridGrid" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="0.2*"/>
+
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60*"/>
+                            <ColumnDefinition Width="320*"/>
+
+                        </Grid.ColumnDefinitions>
+
+                        <ComboBox x:Name="searchText_ComboBox" Height="30" Grid.Column="0" Margin="10" HorizontalContentAlignment="Left" ItemsSource="{Binding Path=SearchTypeList}"
+                       SelectedItem="{Binding SelectedSearchType}">
+                            <ComboBox.Resources>
+                                <SolidColorBrush x:Key="MaterialDesignPaper" Color="White"/>
+                            </ComboBox.Resources>
+                        </ComboBox>
+
+
+
+                        <Grid Grid.Column="1" Margin="10 0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <TextBox x:Name="phone_TxtBox" Style="{DynamicResource WatermarkTextBox}" Tag ="검색할 품목을 입력해주세요" Grid.Column="5" HorizontalContentAlignment="Left" 
+                                     VerticalContentAlignment="Center" FontSize="12" VerticalAlignment="Center" Margin="10,0,10,0" Height="30" 
+                                     Text="{Binding TextForSearch, UpdateSourceTrigger=PropertyChanged}" Cursor="Hand">
+                                    <!--<TextBox.InputBindings>
+                                        <KeyBinding Command="{Binding SearchCommand}" Key="Enter"/>
+                                    </TextBox.InputBindings>-->
+                                    <i:Interaction.Triggers>
+                                        <i:EventTrigger EventName="KeyUp">
+                                            <i:InvokeCommandAction Command="{Binding SearchKeywordCommand}" />
+                                        </i:EventTrigger>
+                                    </i:Interaction.Triggers>
+                                </TextBox>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <StackPanel x:Name="ModifyToggleButtonPanel" Orientation="Horizontal" Margin="10 5" HorizontalAlignment="Right" Visibility="Hidden" >
+                                    <TextBlock Text="수정  " FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                                        
+                                        <ToggleButton HorizontalAlignment="Left" Style="{StaticResource MaterialDesignSwitchToggleButton}"
+                                      ToolTip="수정기능을 잠금/해제 할 수 있습니다." IsChecked="{Binding IsToolTipChecked}">
+                                        <materialDesign:PackIcon Kind="Pin" RenderTransformOrigin=".5,.5" >
+                                            <materialDesign:PackIcon.RenderTransform>
+                                                <RotateTransform Angle="45" />
+                                            </materialDesign:PackIcon.RenderTransform>
+                                        </materialDesign:PackIcon>
+                                        <materialDesign:ToggleButtonAssist.OnContent>
+                                            <materialDesign:PackIcon Kind="Pin" />
+                                        </materialDesign:ToggleButtonAssist.OnContent>
+                                    </ToggleButton>
+                                </StackPanel>
+                                <!--<Button x:Name="search_Btn" Grid.Column="3" Foreground="#4472C4"  FontSize="12" FontWeight="Bold"  Background="White"
+                            VerticalAlignment="Center" Height="30"  Width="45" HorizontalAlignment="Left"
+                             Command="{Binding SearchCommand}" Cursor="Hand">
+                                    <materialDesign:PackIcon  Kind="Search" VerticalAlignment="Bottom" HorizontalAlignment="Center" Height="15" Width="15" />
+                                </Button>-->
+                            </Grid>
+                            <Grid Grid.Column="2">
+                                <StackPanel x:Name="RefreshButtonPanel" Orientation="Horizontal" Margin="10 5" HorizontalAlignment="Left" Width="150" Visibility="Visible" >
+                                    <TextBlock Text="  새로고침 " FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                                    <Button Style="{StaticResource MaterialDesignIconForegroundButton}" Height="20" Width="20" Command="{Binding DataGridRefreshCommand}">
+                                        <materialDesign:PackIcon Kind="Replay" Height="20" Width="20" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray"/>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+
+                        </Grid>
+                    </Grid>
+                        <TextBlock Text="조회 가능한 데이터가 없습니다." TextAlignment="Center"  Visibility="{Binding Items.IsEmpty, Converter={StaticResource BooleanToVisibilityConverter}, ElementName=dataGrid}" Margin="10,28,0,268" Grid.Row="1" />
+                        <DataGrid x:Name="dataGrid" Grid.Row="1" FocusVisualStyle="{x:Null}"
+                            HorizontalAlignment="Left" Margin="10 0"
+                            AllowDrop="False" PreviewKeyDown="DataGridKeyDown"
+                            VerticalAlignment="Top" AutoGenerateColumns="False"
+                            ColumnWidth="*" ItemsSource="{Binding Products}" SelectedItem="{Binding SelectedProduct}" SelectionUnit="FullRow" Cursor="Hand">
+
+                        
+                        <DataGrid.Columns>
+                                <DataGridTemplateColumn Header="제품코드" Width="1.5*" CanUserSort="false">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                            <TextBlock Text="{Binding Prod_code}" VerticalAlignment="Center" Margin="10 0"></TextBlock>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                                <DataGridTemplateColumn.CellEditingTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding PSVM.SelectedProduct.Prod_code, Source={StaticResource Locator}}"></TextBox>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellEditingTemplate>
+
+                                <DataGridTemplateColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <!--<EventSetter Event="KeyDown" Handler="ProductTextKeyDown"/>-->
+                                        <Style.Triggers>
+                                            <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding PSVM.IsToolTipChecked, Source={StaticResource Locator}}" Value="False"></Condition>
+                                                    <Condition Binding="{Binding IsSelected, RelativeSource={RelativeSource Self}}" Value="true" />
+                                                </MultiDataTrigger.Conditions>
+                                                    <Setter Property="IsEditing" Value="True"/>
+                                                </MultiDataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTemplateColumn.CellStyle>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn Header="제품명" Width="1.5*" CanUserSort="false">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Prod_name}" VerticalAlignment="Center" Margin="10 0"></TextBlock>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                                <DataGridTemplateColumn.CellEditingTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding PSVM.SelectedProduct.Prod_name, Source={StaticResource Locator}}"></TextBox>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellEditingTemplate>
+
+                                <DataGridTemplateColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Style.Triggers>
+                                            <MultiDataTrigger>
+                                                <MultiDataTrigger.Conditions>
+                                                    <Condition Binding="{Binding PSVM.IsToolTipChecked, Source={StaticResource Locator}}" Value="False"></Condition>
+                                                    <Condition Binding="{Binding IsSelected, RelativeSource={RelativeSource Self}}" Value="true" />
+                                                </MultiDataTrigger.Conditions>
+                                                <Setter Property="IsEditing" Value="True"/>
+                                            </MultiDataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTemplateColumn.CellStyle>
+                            </DataGridTemplateColumn>
+
+                                <DataGridComboBoxColumn ItemsSource="{Binding PSVM.Categories, Source={StaticResource Locator}}" 
+                                                    TextBinding="{Binding Category_name}"
+                                                    DisplayMemberPath="Category_name" Header="품목/종류" Width="1.5*" CanUserSort="false">
+
+                                    <DataGridComboBoxColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Style.Triggers>
+                                            <MultiDataTrigger>
+                                                <MultiDataTrigger.Conditions>
+                                                    <Condition Binding="{Binding PSVM.IsToolTipChecked, Source={StaticResource Locator}}" Value="False"></Condition>
+                                                    <Condition Binding="{Binding IsSelected, RelativeSource={RelativeSource Self}}" Value="true" />
+                                                </MultiDataTrigger.Conditions>
+                                                    <Setter Property="IsEditing" Value="True"/>
+                                                </MultiDataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridComboBoxColumn.CellStyle>
+
+                                <DataGridComboBoxColumn.EditingElementStyle>
+                                        <Style TargetType="{x:Type ComboBox}">
+                                            <EventSetter Event="SelectionChanged" Handler="SomeSelectionChanged"/>
+                                        </Style>
+                                </DataGridComboBoxColumn.EditingElementStyle>
+
+                                    <DataGridComboBoxColumn.ElementStyle>
+                                        <Style TargetType="{x:Type ComboBox}">
+                                            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                                            <Setter Property="Margin" Value="10 0"></Setter>
+                                        </Style>
+                                    </DataGridComboBoxColumn.ElementStyle>
+                            </DataGridComboBoxColumn>
+
+                            <DataGridTemplateColumn CanUserSort="true" Header="제품가격" Width="1.8*">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                            <TextBlock Text="{Binding Prod_price, StringFormat='{}{0:#,0} ￦'}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"></TextBlock>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                                <DataGridTemplateColumn.CellEditingTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding PSVM.SelectedProduct.Prod_price, Source={StaticResource Locator}}"></TextBox>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellEditingTemplate>
+
+                                <DataGridTemplateColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Style.Triggers>
+                                            <MultiDataTrigger>
+                                                <MultiDataTrigger.Conditions>
+                                                    <Condition Binding="{Binding PSVM.IsToolTipChecked, Source={StaticResource Locator}}" Value="False"></Condition>
+                                                    <Condition Binding="{Binding IsSelected, RelativeSource={RelativeSource Self}}" Value="true" />
+                                                </MultiDataTrigger.Conditions>
+                                                <Setter Property="IsEditing" Value="True"/>
+                                            </MultiDataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTemplateColumn.CellStyle>
+                            </DataGridTemplateColumn>
+                            <DataGridTemplateColumn CanUserSort="true" Header="수량" Width="1.5*">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                            <TextBlock Text="{Binding Imp_dept_count, StringFormat='{}{0:#,0} 개'}" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0"></TextBlock>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                                <DataGridTemplateColumn.CellEditingTemplate>
+                                    <DataTemplate>
+                                        <TextBox Text="{Binding PSVM.SelectedProduct.Imp_dept_count, Source={StaticResource Locator}}"></TextBox>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellEditingTemplate>
+
+                                <DataGridTemplateColumn.CellStyle>
+                                    <Style TargetType="DataGridCell">
+                                        <Style.Triggers>
+                                            <MultiDataTrigger>
+                                                <MultiDataTrigger.Conditions>
+                                                    <Condition Binding="{Binding PSVM.IsToolTipChecked, Source={StaticResource Locator}}" Value="False"></Condition>
+                                                    <Condition Binding="{Binding IsSelected, RelativeSource={RelativeSource Self}}" Value="true" />
+                                                </MultiDataTrigger.Conditions>
+                                                <Setter Property="IsEditing" Value="True"/>
+                                                <Setter Property="ToolTip" Value="※ 입고/출고가 반영되지 않습니다." />
+                                            </MultiDataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </DataGridTemplateColumn.CellStyle>
+                                
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Binding="{Binding Prod_expire, StringFormat='yyyy-MM-dd'}"  Header="유통기한" Width="2*" CanUserSort="true" IsReadOnly="True"/>
+
+                            <DataGridTemplateColumn Header="상태" Width="*" CanUserSort="true" IsReadOnly="True">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <materialDesign:PackIcon Kind="Circle" VerticalAlignment="Center" HorizontalAlignment="Center" Height="17" Width="17">
+                                                <materialDesign:PackIcon.Style>
+                                                    <Style TargetType="materialDesign:PackIcon">
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding Prod_remainexpire, Converter={StaticResource IsLesserThanConverter}, ConverterParameter=0}" Value="True">
+                                                                <Setter Property="Foreground" Value="Red"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding Prod_remainexpire, Converter={StaticResource IsEqualOrLessGreaterThanConverter}, ConverterParameter=0}" Value="True">
+                                                                <Setter Property="Foreground" Value="Yellow"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding Prod_remainexpire, Converter={StaticResource IsGreaterThanConverter}, ConverterParameter=0}" Value="True">
+                                                                <Setter Property="Foreground" Value="Green"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </materialDesign:PackIcon.Style>
+                                            </materialDesign:PackIcon>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            
+                            <DataGridTemplateColumn x:Name="buttonColumn" Width="3*" IsReadOnly="True" Visibility="Hidden">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                            <!--<Button x:Name="goDialog_Btn" Foreground="#4472C4"  FontSize="12" FontWeight="Bold" Background="{x:Null}"  Cursor="Hand"
+                                                    VerticalAlignment="Center" Height="45"  Width="45" HorizontalAlignment="Center" Command="{Binding PSVM.ProductEditCommand, Source={StaticResource Locator}}">
+                                                <materialDesign:PackIcon Kind="LeadPencil" VerticalAlignment="Center" HorizontalAlignment="Center" Height="17" Width="17">
+                                                    
+                                                </materialDesign:PackIcon>
+                                            </Button>-->
+                                            <StackPanel Orientation="Horizontal">
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <!--입고-->
+                                                        <materialDesign:PopupBox Name="InPopupBox" StaysOpen="True">
+                                                            <materialDesign:PopupBox.ToggleContent>
+                                                                <materialDesign:PackIcon  Kind="CallReceived" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Width="50">
+
+                                                                </materialDesign:PackIcon>
+
+
+                                                            </materialDesign:PopupBox.ToggleContent>
+                                                            <Grid Width="250" Height="270" Margin="8,8,8,8">
+                                                                <Grid.Resources>
+                                                                    <Style TargetType="CheckBox" BasedOn="{StaticResource MaterialDesignCheckBox}">
+                                                                        <Setter Property="Margin" Value="8,8,10,8" />
+                                                                    </Style>
+                                                                    <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignTextBox}">
+                                                                        <Setter Property="materialDesign:HintAssist.IsFloating" Value="True" />
+                                                                        <Setter Property="Margin" Value="8,8,8,8" />
+                                                                    </Style>
+                                                                </Grid.Resources>
+                                                                <Grid.RowDefinitions>
+                                                                    <RowDefinition Height="0.6*" />
+                                                                    <RowDefinition Height="*" />
+                                                                    <RowDefinition Height="*" />
+                                                                    <RowDefinition Height="0.8*" />
+                                                                </Grid.RowDefinitions>
+                                                                <TextBlock  Grid.Row="0" Style="{StaticResource MaterialDesignHeadline6TextBlock}" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                        FontWeight="SemiBold" FontSize="20" Text="입고"></TextBlock>
+                                                                <Grid Grid.Row="1">
+                                                                    <Grid.ColumnDefinitions>
+                                                                        <ColumnDefinition Width="*"/>
+                                                                        <ColumnDefinition Width="*"/>
+                                                                    </Grid.ColumnDefinitions>
+                                                                    <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11"  Text="입고유형"></TextBlock>
+                                                                    <TextBox x:Name="SelectedInType_txtBox" Style="{DynamicResource WatermarkTextBox}" Tag ="입고 유형" Grid.Column="1" HorizontalContentAlignment="Center" HorizontalAlignment="Left"
+                                                                    VerticalContentAlignment="Center" FontSize="12" VerticalAlignment="Center"  Height="30" Width="80" IsReadOnly="True"
+                                                                    Text="{Binding PSVM.SelectedProduct.SelectedInType, Source={StaticResource Locator}}"/>
+                                                                </Grid>
+
+                                                                <Grid Grid.Row="2">
+                                                                    <Grid.ColumnDefinitions>
+                                                                        <ColumnDefinition Width="*"/>
+                                                                        <ColumnDefinition Width="*"/>
+                                                                    </Grid.ColumnDefinitions>
+                                                                    <TextBlock  Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Text="수량" />
+                                                                    <TextBox x:Name="in_popupBox_mount_TxtBox" Style="{DynamicResource WatermarkTextBox}" Tag ="수량" Grid.Column="1" HorizontalContentAlignment="Center" HorizontalAlignment="Left"
+                                                                    VerticalContentAlignment="Center" FontSize="12" VerticalAlignment="Center"  Height="30" Width="80"
+                                                                    Text="{Binding PSVM.SelectedProduct.InputInCount, Source={StaticResource Locator}}"/>
+                                                                </Grid>
+                                                                <Grid Grid.Row="4">
+                                                                    <Grid.ColumnDefinitions>
+                                                                        <ColumnDefinition Width="*"/>
+                                                                        <ColumnDefinition Width="*"/>
+                                                                    </Grid.ColumnDefinitions>
+                                                                    <Button x:Name="in_popupBox_reset_Btn" Grid.Column="0"  Content="초기화"  FontSize="8"  HorizontalAlignment="Center" Command="{Binding PSVM.InProductReset, Source={StaticResource Locator}}"
+                                                                   VerticalAlignment="Center"  BorderThickness="0" Height="30" Width="55"  Foreground="White" Cursor="Hand">
+                                                                        <Button.Style>
+                                                                            <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                                                                                <Setter  Property="Background" Value="Red" />
+                                                                            </Style>
+                                                                        </Button.Style>
+                                                                    </Button>
+                                                                    <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                                                        <Button x:Name="in_popupBox_cancel_Btn" Content="취소" Command="{x:Static materialDesign:PopupBox.ClosePopupCommand}" 
+                                                                            FontSize="10" FontWeight="Bold" HorizontalAlignment="Center"  
+                                                                            VerticalAlignment="Center"  BorderThickness="0" Height="28" Width="55" Cursor="Hand"  Foreground="White" >
+                                                                            <Button.Style>
+                                                                                <Style TargetType="Button"  BasedOn="{StaticResource {x:Type Button}}">
+                                                                                    <Setter  Property="Background" Value="Gray" />
+                                                                                </Style>
+                                                                            </Button.Style>
+                                                                        </Button>
+
+                                                                        <Button x:Name="productAdd_Btn" Margin="5,0,0,0" Content="확인"  FontSize="10"  HorizontalAlignment="Center"  
+                                                                    VerticalAlignment="Center"  BorderThickness="0" Height="28" Width="55" Cursor="Hand"  Command="{Binding PSVM.InProductCommand, Source={StaticResource Locator}}" Foreground="white" >
+                                                                            <Button.Style>
+                                                                                <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                                                                                    <Setter  Property="Background" Value="#4472C4" />
+                                                                                </Style>
+                                                                            </Button.Style>
+                                                                        </Button>
+                                                                    </StackPanel>
+                                                                </Grid>
+                                                            </Grid>
+                                                        </materialDesign:PopupBox>
+                                                    </StackPanel>
+                                                    <!--출고 -->
+                                                <materialDesign:PopupBox Name="releasePopupBox" StaysOpen="True">
+                                                    <materialDesign:PopupBox.ToggleContent>
+                                                        <materialDesign:PackIcon  Kind="CallMade" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Width="20"/>
+                                                    </materialDesign:PopupBox.ToggleContent>
+                                                    <Grid Width="250" Height="270" Margin="8,8,8,8">
+                                                        <Grid.Resources>
+                                                            <Style TargetType="CheckBox" BasedOn="{StaticResource MaterialDesignCheckBox}">
+                                                                <Setter Property="Margin" Value="8,8,10,8" />
+                                                            </Style>
+                                                            <Style TargetType="TextBox" BasedOn="{StaticResource MaterialDesignTextBox}">
+                                                                <Setter Property="materialDesign:HintAssist.IsFloating" Value="True" />
+                                                                <Setter Property="Margin" Value="8,8,8,8" />
+                                                            </Style>
+                                                        </Grid.Resources>
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition Height="0.6*" />
+                                                            <RowDefinition Height="*" />
+                                                            <RowDefinition Height="*" />
+                                                            <RowDefinition Height="*" />
+                                                            <RowDefinition Height="0.8*" />
+                                                        </Grid.RowDefinitions>
+                                                        <TextBlock  Grid.Row="0" Style="{StaticResource MaterialDesignHeadline6TextBlock}" HorizontalAlignment="Center" VerticalAlignment="Center"
+                                                                        FontWeight="SemiBold" FontSize="20" Text="출고" />
+                                                        <Grid Grid.Row="1">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="*"/>
+                                                                <ColumnDefinition Width="*"/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Text="유형" />
+                                                            <ComboBox Grid.Column="1" Height="30" Width="70" MaxDropDownHeight="200" HorizontalAlignment="Left"  Name="Type_comboBox" VerticalAlignment="Center"
+                                                                      ItemsSource="{Binding PSVM.SelectedProduct.SelectedOutTypeList, Source={StaticResource Locator}}" SelectedItem="{Binding PSVM.SelectedProduct.SelectedOutType, Source={StaticResource Locator}}" >
+                                                            </ComboBox>
+                                                        </Grid>
+                                                        <Grid Grid.Row="2">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="*"/>
+                                                                <ColumnDefinition Width="*"/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11"  Text="부서" Visibility="{Binding PSVM.SelectedProduct.Popup_combobox_vis, Source={StaticResource Locator}}"/>
+                                                            <ComboBox Grid.Column="1" Height="30" Width="70"  HorizontalAlignment="Left" x:Name="Dept_comboBox" 
+                                                                          VerticalAlignment="Center" 
+                                                                          Visibility="{Binding PSVM.SelectedProduct.Popup_combobox_vis, Source={StaticResource Locator}}"
+                                                                          ItemsSource="{Binding PSVM.DeptsForPopupBox, Source={StaticResource Locator}}"
+                                                                          SelectedItem="{Binding PSVM.SelectedProduct.SelectedOutDept, Source={StaticResource Locator}}">
+                                                                <ComboBox.ItemTemplate>
+                                                                    <DataTemplate>
+                                                                        <StackPanel Orientation="Horizontal">
+                                                                            <TextBlock Text="{Binding Dept_name}"/>
+                                                                        </StackPanel>
+                                                                    </DataTemplate>
+                                                                </ComboBox.ItemTemplate>
+                                                            </ComboBox>
+                                                        </Grid>
+                                                        <Grid Grid.Row="3">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="*"/>
+                                                                <ColumnDefinition Width="*"/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <TextBlock  Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="11" Text="수량" />
+                                                            <TextBox x:Name="out_popupBox_mount_TxtBox" Style="{DynamicResource WatermarkTextBox}" Tag ="수량" Grid.Column="1" HorizontalContentAlignment="Center" HorizontalAlignment="Left"
+                                                                    VerticalContentAlignment="Center" FontSize="12" VerticalAlignment="Center"  Height="30" Width="80"
+                                                                    Text="{Binding PSVM.SelectedProduct.InputOutCount, Source={StaticResource Locator}}"/>
+                                                        </Grid>
+                                                        <Grid Grid.Row="4">
+                                                            <Grid.ColumnDefinitions>
+                                                                <ColumnDefinition Width="*"/>
+                                                                <ColumnDefinition Width="*"/>
+                                                            </Grid.ColumnDefinitions>
+                                                            <Button x:Name="out_popupBox_reset_Btn" Grid.Column="0"  Content="초기화"  FontSize="8"  HorizontalAlignment="Center" 
+                                                                   VerticalAlignment="Center"  BorderThickness="0" Height="30" Width="55"  Foreground="White" Command="{Binding PSVM.OutProductReset, Source={StaticResource Locator}}" Cursor="Hand">
+                                                                <Button.Style>
+                                                                    <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}">
+                                                                        <Setter  Property="Background" Value="Red" />
+                                                                    </Style>
+                                                                </Button.Style>
+                                                            </Button>
+                                                            <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                                                <Button x:Name="out_popupBox_cancel_Btn" Content="취소" Command="{x:Static materialDesign:PopupBox.ClosePopupCommand}" 
+                                                                            FontSize="10" FontWeight="Bold" HorizontalAlignment="Center"  
+                                                                            VerticalAlignment="Center"  BorderThickness="0" Height="28" Width="55" Cursor="Hand"  Foreground="White" >
+                                                                    <Button.Style>
+                                                                        <Style TargetType="Button"  BasedOn="{StaticResource {x:Type Button}}">
+                                                                            <Setter  Property="Background" Value="Gray" />
+                                                                        </Style>
+                                                                    </Button.Style>
+                                                                </Button>
+
+                                                                <Button x:Name="productRelease_Btn" Margin="5,0,0,0" Content="확인"  FontSize="10"  HorizontalAlignment="Center" IsEnabled="{Binding PSVM.SelectedProduct.IsEnabled, Source={StaticResource Locator}}"
+                                                                    VerticalAlignment="Center"  BorderThickness="0" Height="28" Width="55" Cursor="Hand" Foreground="white" Command="{Binding PSVM.OutProductCommand, Source={StaticResource Locator}}">
+                                                                    <Button.Style>
+                                                                        <Style TargetType="Button" BasedOn="{StaticResource {x:Type Button}}" >
+                                                                            <Setter  Property="Background" Value="#4472C4" />
+                                                                        </Style>
+                                                                    </Button.Style>
+                                                                </Button>
+                                                            </StackPanel>
+                                                        </Grid>
+                                                    </Grid>
+                                                </materialDesign:PopupBox>
+                                            </StackPanel><!--출고끝-->
+                                            <StackPanel Orientation="Horizontal"><!--발주신청서-->
+                                                <materialDesign:PopupBox x:Name="orderPopupBox" StaysOpen="True">
+                                                    <materialDesign:PopupBox.ToggleContent>
+                                                        <materialDesign:PackIcon  Kind="Input" VerticalAlignment="Center" HorizontalAlignment="Center" Height="20" Width="50"/>
+                                                    </materialDesign:PopupBox.ToggleContent>
+                                                    <Grid Width="400" Height="400" Margin="8,8,8,8">
+                                                        <Frame Source="/View/OrderPopupBoxPage.xaml"/>
+                                                    </Grid>
+
+                                                </materialDesign:PopupBox>
+                                            </StackPanel>
+
+                                            
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                        
+                    </DataGrid>
+                        
+                    <Grid Grid.Row="2">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10 5">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Visibility="Visible">
+                                    <TextBlock Text="  전체 " FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                                    <Button x:Name="export_btn2" Style="{StaticResource MaterialDesignIconForegroundButton}" Height="20" Width="20" ToolTip="전체 페이지를 CSV파일로 내려받을 수 있습니다.">
+                                        <materialDesign:PackIcon Kind="MicrosoftExcel" Height="20" Width="20" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DarkGreen"/>
+                                    </Button>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Visibility="Visible" Margin="10 0">
+                                    <TextBlock Text="  현재 " FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                                    <Button x:Name="export_btn" Style="{StaticResource MaterialDesignIconForegroundButton}" Height="20" Width="20" ToolTip="현재 페이지를 CSV파일로 내려받을 수 있습니다.">
+                                        <materialDesign:PackIcon Kind="MicrosoftExcel" Height="20" Width="20" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="DarkGreen"/>
+                                    </Button>
+                                </StackPanel>
+                                <materialDesign:PackIcon Kind="Circle" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"></materialDesign:PackIcon>
+                            <Label Content="유통기한 지남" FontSize="8" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                            <materialDesign:PackIcon Kind="Circle" Foreground="Yellow" HorizontalAlignment="Center" VerticalAlignment="Center"></materialDesign:PackIcon>
+                            <Label Content="3일 미만" FontSize="8" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                            <materialDesign:PackIcon Kind="Circle" Foreground="Green" HorizontalAlignment="Center" VerticalAlignment="Center"></materialDesign:PackIcon>
+                            <Label Content="3일 이상" FontSize="8" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="5 0 0 0">
+                            <Button Height="23" HorizontalAlignment="Right"  Command="{Binding FirstCommand}"
+                            Name="btnFirst" VerticalAlignment="Bottom" Width="40" Foreground="White" Background="#4472C4"
+                            Content="&lt;&lt;" Opacity="0.75" Margin="5">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="IsEnabled" Value="false"></Setter>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsFirstEnabled}" Value="True">
+                                                <Setter Property="IsEnabled" Value="True"></Setter>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+
+                            <Button Height="23" HorizontalAlignment="Right" VerticalAlignment="Bottom" 
+                                    Name="btnPrev" Width="40" 
+                                   Margin="5" Foreground="White" Background="#4472C4" Command="{Binding PreviousCommand}"
+                                    Opacity="0.75" Content="&lt;" Cursor="Hand">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="IsEnabled" Value="false"></Setter>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsPreviousEnabled}" Value="True">
+                                                <Setter Property="IsEnabled" Value="True"></Setter>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                            <TextBlock VerticalAlignment="Center" Margin="7">
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{}{0} of {1}">
+                                        <Binding Path="CurrentPage" />
+                                        <Binding Path="NumberOfPages" />
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+
+                            <Button Height="23" HorizontalAlignment="Left"  Foreground="White" Background="#4472C4"
+                            Name="btnNext" VerticalAlignment="Bottom" Width="40" Margin="5" Command="{Binding NextCommand}"
+                            Content="&gt;" Opacity="0.75" Cursor="Hand">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="IsEnabled" Value="false"></Setter>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsNextEnabled}" Value="True">
+                                                <Setter Property="IsEnabled" Value="True"></Setter>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+
+                            <Button Height="23" HorizontalAlignment="Left"   Foreground="White" Background="#4472C4"
+                            VerticalAlignment="Bottom" Width="40" Name="btnLast" Margin="5" Command="{Binding LastCommand}"
+                             Opacity="0.75" Content="&gt;&gt;" Cursor="Hand">
+                                <Button.Style>
+                                    <Style TargetType="Button">
+                                        <Setter Property="IsEnabled" Value="false"></Setter>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsLastEnabled}" Value="True">
+                                                <Setter Property="IsEnabled" Value="True"></Setter>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+
+                            <ComboBox Margin="10 5" SelectedIndex="0" Width="100" SelectedItem ="{Binding SelectedRecord, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Right">
+                                <wookoa:Int32>10</wookoa:Int32>
+                                <wookoa:Int32>15</wookoa:Int32>
+                                <wookoa:Int32>20</wookoa:Int32>
+                                <wookoa:Int32>25</wookoa:Int32>
+                            </ComboBox>
+                        </StackPanel>                        
+                    </Grid>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <materialDesign:Card x:Name="GraphCard" Margin="0 0" UniformCornerRadius="20" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <Frame x:Name="Status_GraphFrame" NavigationUIVisibility="Hidden" Source="/View/TabItemPage/GraphPage/DeptCate_GraphPage.xaml"  Height="430" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    </materialDesign:Card>
+                </Grid>
+            </Grid>
+
+        </Grid>
+        <materialDesign:Snackbar x:Name="Snackbar" VerticalAlignment="Bottom" HorizontalAlignment="Stretch">
+            <materialDesign:Snackbar.Style>
+                <Style TargetType="materialDesign:Snackbar">
+                    <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsInOutEnabled}" Value="True">
+                                <Setter Property="MessageQueue" Value="{Binding MessageQueue}"></Setter>
+                                <Setter Property="Background" Value="#Ea4a2d"></Setter>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding IsInOutEnabled}" Value="False">
+                                <Setter Property="MessageQueue" Value="{Binding MessageQueue}"></Setter>
+                                <Setter Property="Background" Value="Green"></Setter>
+                            </DataTrigger>
+                        </Style.Triggers>
+                </Style>
+            </materialDesign:Snackbar.Style>            
+        </materialDesign:Snackbar>
+        
+    </Grid>
+    </materialDesign:DialogHost>
+</Page>

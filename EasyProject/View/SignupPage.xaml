@@ -1,0 +1,221 @@
+﻿<Page x:Class="EasyProject.SignupPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:vm="clr-namespace:EasyProject.ViewModel"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      xmlns:local="clr-namespace:EasyProject"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:w="clr-namespace:EasyProject.Util"  xmlns:model="clr-namespace:EasyProject.Model"
+      DataContext="{Binding SVM, Source={StaticResource Locator}}"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="SignupPage">
+
+    <materialDesign:DialogHost x:Name="SignUpDialogHost">
+        <materialDesign:DialogHost.DialogContent>
+            <StackPanel Margin="20">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                        <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <materialDesign:PackIcon Kind="Error" Foreground="#4472C4"
+                                                 Height="48"
+                                                 Width="48"
+                                                 Margin="20, 25, 20, 20"
+                                                 Grid.Column="0" />
+                    <StackPanel Margin="20" Grid.Column="1"  MinWidth="180">
+                        <TextBlock Text="회원가입" FontSize="15" FontWeight="UltraBold"></TextBlock>
+                        <TextBlock Text="회원가입을 진행하시겠습니까 ?" FontSize="13" FontWeight="SemiBold"
+                                       Margin="0,20,0,0"></TextBlock>
+                    </StackPanel>
+                </Grid>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button Content="취소" Background="#EAEAEA" Foreground="Black"
+                            Command="{x:Static materialDesign:DialogHost.CloseDialogCommand}"></Button>
+                    <Button Content="확인" Background="#4472C4" Foreground="White" Margin="30,0,0,0"
+                            Click="signUpBtn_Click" Cursor="Hand"></Button>
+
+                </StackPanel>
+            </StackPanel>
+        </materialDesign:DialogHost.DialogContent>
+
+        <Grid  Background="White"  >
+            <materialDesign:Card Height="400" Width="450" Margin ="10" UniformCornerRadius="20" Background="White">
+                <Grid Height="400" Width="450"  HorizontalAlignment="Center" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.8*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="0.8*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Content="회원가입" FontSize="25" FontWeight="Black" Grid.Row="0" 
+                   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Grid Grid.Row="1" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="7*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="7*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="이름" Grid.Column="0" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left"  
+                       VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.3*"/>
+                                <RowDefinition Height="0.4*"/>
+                                <RowDefinition Height="0.3*"/>
+                            </Grid.RowDefinitions>
+                            <TextBox x:Name="name_TxtBox" Grid.Row="1" HorizontalContentAlignment="Left" 
+                       VerticalContentAlignment="Center" FontSize="13" VerticalAlignment="Center" Margin="10,0,10,0" Height="30" Text="{Binding Nurse.Nurse_name}" Cursor="IBeam" materialDesign:TextFieldAssist.CharacterCounterVisibility="Collapsed"
+                                     InputMethod.PreferredImeState="On"
+                                     InputMethod.PreferredImeConversionMode="Native"/>
+                            <TextBlock HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,3,0,0"><Run FontSize="10" Text="최대 4자리, 문자 입력 가능" Foreground="Gray"/></TextBlock>
+                        </Grid>
+
+                        <Label Content="담당 부서" Grid.Column="2" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+                        <Grid Grid.Column="3">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.3*"/>
+                                <RowDefinition Height="0.4*"/>
+                                <RowDefinition Height="0.3*"/>
+                            </Grid.RowDefinitions>
+                            <ComboBox x:Name="deptName_ComboBoxs" Grid.Row="1" HorizontalContentAlignment="Left" 
+                       VerticalContentAlignment="Center" FontSize="13" VerticalAlignment="Center" Margin="10,0,10,0" Height="30" Grid.ColumnSpan="2" 
+                       ItemsSource="{Binding Path=Depts}" SelectedItem="{Binding SelectedDept}">
+                                <ComboBox.Resources>
+                                    <SolidColorBrush x:Key="MaterialDesignPaper" Color="White"/>
+                                </ComboBox.Resources>
+
+                                <ComboBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="{Binding Dept_name}"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ComboBox.ItemTemplate>
+                            </ComboBox>
+                            <TextBlock TextWrapping="Wrap" Text="{Binding SignUpMessage_Dept}" FontSize="10" Foreground="Red" VerticalAlignment="Top" Grid.Row="2" HorizontalAlignment="Center" Margin="0,2,0,0"/>
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6*"/>
+                            <ColumnDefinition Width="14*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="사번" Grid.Column="0" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left"  
+                       VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        <Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.2*"/>
+                                <RowDefinition Height="0.35*"/>
+                                <RowDefinition Height="0.2*"/>
+                            </Grid.RowDefinitions>
+
+                            <TextBox x:Name="id_TxtBox" Style="{DynamicResource WatermarkTextBox}" Tag ="사번" Grid.Column="1" HorizontalContentAlignment="Left" 
+                       VerticalContentAlignment="Center" FontSize="13" VerticalAlignment="Center" Margin="10,0,10,0" Height="30" Text="{Binding Nurse.Nurse_no}" Grid.Row="1"
+                                     PreviewTextInput="id_TxtBox_PreviewTextInput"/>
+
+                            <TextBlock Grid.Row="2" HorizontalAlignment="Left" Margin="15,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="10"><Run Language="ko-kr" Text="8자리, 숫자만 입력 가능 " Foreground="Gray"/></TextBlock>
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="3" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="6*"/>
+                            <ColumnDefinition Width="14*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="비밀번호" Grid.Column="0" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left"  
+                       VerticalAlignment="Center" Margin="10,0,0,0"/>
+
+                        <Grid Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="10*"/>
+                                <ColumnDefinition Width="53*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="0.2*"/>
+                                <RowDefinition Height="0.35*"/>
+                                <RowDefinition Height="0.2*"/>
+                            </Grid.RowDefinitions>
+                            <PasswordBox x:Name="password_PwBox" Grid.Row="1" HorizontalContentAlignment="Left" 
+                       VerticalContentAlignment="Center" FontSize="13" VerticalAlignment="Center" Margin="10,0,10,0" Height="30" Cursor="IBeam"
+                             w:PasswordHelper.Attach="True" w:PasswordHelper.Password="{Binding Nurse_Pw, Mode=TwoWay}" Grid.ColumnSpan="2"/>
+                            <TextBlock Grid.Row="2" HorizontalAlignment="Left" Margin="15,0,0,0"  TextWrapping="Wrap" Text="문자 + 숫자 조합 6자리 이상" VerticalAlignment="Center" FontSize="10" Foreground="Gray" Grid.ColumnSpan="2"/>
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="4">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="135*"/>
+                            <ColumnDefinition Width="89*"/>
+                            <ColumnDefinition Width="226*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="비밀번호 재입력" Grid.Column="0" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left"  
+                       VerticalAlignment="Center" Margin="10,0,0,0"/>
+                        <Grid Grid.Column="1"></Grid>
+                        <PasswordBox x:Name="rePassword_PwBox" Grid.Column="1" HorizontalContentAlignment="Left" 
+                       VerticalContentAlignment="Center" FontSize="13" VerticalAlignment="Center" Margin="10,0,10,0" Height="30" Grid.ColumnSpan="2" 
+                                 w:PasswordHelper.Attach="True" w:PasswordHelper.Password="{Binding Nurse_RePw, Mode=TwoWay}"/>
+                        <TextBlock Grid.Column="1" HorizontalAlignment="Left" Margin="11,53,0,0" TextWrapping="Wrap" Text="{Binding SignUpMessage_PwRe}" Foreground="Red" VerticalAlignment="Top" FontSize="10" Width="151" Grid.ColumnSpan="2"/>
+                    </Grid>
+                    <Grid Grid.Row="5" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button x:Name="signUpBtn" Content="회원가입" Grid.Column="3" Background="Red" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left"  
+                       VerticalAlignment="Center" Margin="10,0,0,0" BorderThickness="0" Height="30" Width="90" Cursor="Hand" Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}">
+                        </Button>
+                        <Button x:Name="backBtn" Content="돌아가기" Grid.Column="0" Background="#4472C4" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left"  
+                       VerticalAlignment="Center" Margin="10,0,0,0" BorderThickness="0" Height="30" Width="90" Cursor="Hand" />
+                        <Button x:Name="rewriteBtn" Content="다시 작성하기" Grid.Column="2" Background="LightGray" FontSize="13" FontWeight="Bold" HorizontalAlignment="Left"  
+                       VerticalAlignment="Center" Margin="10,0,0,0" BorderThickness="0" Height="30" Width="90" Cursor="Hand" Command="{Binding ResetCommand}"/>
+                    </Grid>
+
+                </Grid>
+            </materialDesign:Card>
+
+            <Grid>
+                <materialDesign:Snackbar x:Name="Snackbar" Background="#Ea4a2d" VerticalAlignment="Bottom" HorizontalAlignment="Stretch">
+
+
+
+                    <materialDesign:Snackbar.Style>
+                        <Style TargetType="materialDesign:Snackbar">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsSignUpOk}" Value="True">
+                                    <Setter Property="MessageQueue" Value="{Binding MessageQueue}"></Setter>
+                                    <Setter Property="Background" Value="#Ea4a2d"></Setter>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding IsSignUpOk}" Value="False">
+                                    <Setter Property="MessageQueue" Value="{Binding MessageQueue}"></Setter>
+                                    <Setter Property="Background" Value="Green"></Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </materialDesign:Snackbar.Style>
+
+                </materialDesign:Snackbar>
+            </Grid>
+
+
+
+
+
+        </Grid>
+
+    </materialDesign:DialogHost >
+</Page>

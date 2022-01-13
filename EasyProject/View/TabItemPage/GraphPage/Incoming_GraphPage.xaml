@@ -1,0 +1,60 @@
+﻿<Page x:Class="EasyProject.View.TabItemPage.GraphPage.Incoming_GraphPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EasyProject.View.TabItemPage.GraphPage"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+      DataContext="{Binding PIOVM, Source={StaticResource Locator}}"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Incoming_GraphPage">
+
+    <Grid Height="450" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*" />
+                <RowDefinition Height="0.1*" />
+                <RowDefinition Height="0.8*" />
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                    <ColumnDefinition Width="0.3*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1">
+                    <Label Content="부서별 입고 유형" FontSize="15" FontWeight="DemiBold" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,15,0,0"></Label>
+                </Grid>
+                <Grid Grid.Column="2">
+                    
+                </Grid>
+                
+                
+            </Grid>
+            <Grid Grid.Row="2">
+                
+                <lvc:CartesianChart x:Name="incoming_type_chart" BorderThickness="2" Series="{Binding SeriesCollection3}" 
+                             LegendLocation="Top" Height="288" VerticalAlignment="Center"  Width="300">
+                    <!--Series="{Binding SeriesCollection}"-->
+                    <lvc:CartesianChart.AxisY>
+                        <lvc:Axis LabelFormatter="{Binding Formatter}" Title="입고 유형별 빈도" />
+                        <!-- LabelFormatter="{Binding Formatter}" 바인딩-->
+                    </lvc:CartesianChart.AxisY>
+                    <lvc:CartesianChart.AxisX>
+                        <lvc:Axis Labels="{Binding BarLabels3}">
+                            <lvc:Axis.Separator>
+                                <lvc:Separator Step="1" Stroke="{x:Null}"/>
+                            </lvc:Axis.Separator>
+                        </lvc:Axis>
+                        <!--Labels="{Binding BarLabels}" 바인딩-->
+                    </lvc:CartesianChart.AxisX>
+                </lvc:CartesianChart>
+            </Grid>
+
+        </Grid>
+       
+    </Grid>
+</Page>

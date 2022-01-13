@@ -1,0 +1,1344 @@
+2022-01-13 10:31:27,527 [1] INFO EasyProject.App - ==== START UP EASY_PROJECT ====
+2022-01-13 10:31:27,666 [1] INFO EasyProject.App - Constructor App() invoked.
+2022-01-13 10:31:28,099 [1] INFO EasyProject.App - OnStartup(StartupEventArgs) invoked.
+2022-01-13 10:31:28,115 [1] INFO EasyProject.App - Constructor MainWindow() invoked.
+2022-01-13 10:31:28,273 [1] INFO EasyProject.App - Constructor LoginPage() invoked.
+2022-01-13 10:31:28,322 [1] INFO EasyProject.App - Constructor LoginViewModel() invoked.
+2022-01-13 10:31:28,349 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:31:28,369 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:31:28,379 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:31:28,671 [1] INFO EasyProject.App - Window1_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:31:29,643 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:31:32,802 [1] INFO EasyProject.App - signUpBtn_Click(object, RoutedEventArgs) invoked
+2022-01-13 10:31:32,816 [1] INFO EasyProject.App - Constructor SignupPage() invoked
+2022-01-13 10:31:32,829 [1] INFO EasyProject.App - Constructor SignupViewModel() invoked.
+2022-01-13 10:31:32,841 [1] INFO EasyProject.App - GetDeptModels() invoked.
+2022-01-13 10:31:33,176 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:31:33,189 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:31:33,202 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:31:33,216 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:31:33,227 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:31:33,238 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:31:33,627 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:01,978 [1] INFO EasyProject.App - backBtn_Click(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:01,994 [1] INFO EasyProject.App - Constructor LoginPage() invoked.
+2022-01-13 10:32:02,008 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:02,020 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:02,031 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:02,729 [1] INFO EasyProject.App - signUpBtn_Click(object, RoutedEventArgs) invoked
+2022-01-13 10:32:02,745 [1] INFO EasyProject.App - Constructor SignupPage() invoked
+2022-01-13 10:32:02,762 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:02,773 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:02,783 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:02,796 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:02,810 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:02,821 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:03,083 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:05,922 [1] INFO EasyProject.App - backBtn_Click(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:05,937 [1] INFO EasyProject.App - Constructor LoginPage() invoked.
+2022-01-13 10:32:05,948 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:05,958 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:05,977 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:09,671 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:09,689 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:09,701 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:09,711 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:09,722 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:09,737 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:09,749 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:09,793 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:09,805 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:09,815 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:09,827 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:09,837 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:09,853 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:09,863 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:09,874 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:09,887 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:09,898 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:09,909 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:09,923 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:09,932 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:09,944 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,021 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:10,034 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:10,044 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,054 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:10,063 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:10,076 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:10,086 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,168 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:10,181 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:10,192 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,202 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:10,213 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:10,223 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:10,235 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,254 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:10,274 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:10,284 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,295 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:10,305 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:10,315 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:10,327 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,340 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:10,351 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:10,363 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,373 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:10,384 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:10,395 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:10,406 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,509 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:10,521 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:10,533 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,548 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:10,558 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:10,570 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:10,580 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,699 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:10,716 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:10,727 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,736 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:10,748 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:10,758 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:10,768 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:10,847 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:10,862 [1] INFO EasyProject.App - loginBtn_Click(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:10,877 [8] INFO EasyProject.App - Login() invoked.
+2022-01-13 10:32:10,889 [8] INFO EasyProject.App - IdPasswordCheck(NurseModel) invoked.
+2022-01-13 10:32:10,906 [8] INFO EasyProject.App - StringToHash(string) invoked.
+2022-01-13 10:32:10,918 [8] INFO EasyProject.App - CreateSalt(string) invoked.
+2022-01-13 10:32:10,936 [8] INFO EasyProject.App - LoginUserInfo(NurseModel) invoked.
+2022-01-13 10:32:10,947 [8] INFO EasyProject.App - StringToHash(string) invoked.
+2022-01-13 10:32:10,958 [8] INFO EasyProject.App - CreateSalt(string) invoked.
+2022-01-13 10:32:10,976 [8] INFO EasyProject.App - Login_Logging(NurseModel) invoked.
+2022-01-13 10:32:11,125 [8] INFO EasyProject.App - Login Sucess
+2022-01-13 10:32:11,149 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:11,161 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:11,172 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:11,182 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:11,197 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:11,209 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:11,226 [1] INFO EasyProject.App - Constructor TapPage() invoked.
+2022-01-13 10:32:11,241 [1] INFO EasyProject.App - Constructor LoginViewModel() invoked.
+2022-01-13 10:32:11,260 [1] INFO EasyProject.App - GetDeptName_Return_String(int) invoked.
+2022-01-13 10:32:11,280 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:32:11,293 [1] INFO EasyProject.App - Constructor ProductShowViewModel() invoked.
+2022-01-13 10:32:11,305 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:32:11,321 [1] INFO EasyProject.App - getListbyDept() invoked.
+2022-01-13 10:32:11,333 [1] INFO EasyProject.App - GetProductsByDept(DeptModel) invoked.
+2022-01-13 10:32:11,364 [1] INFO EasyProject.App - updateSearchedProducts(bool) invoked.
+2022-01-13 10:32:11,386 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:11,399 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:32:11,410 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:11,420 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:11,433 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:32:11,445 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:32:11,457 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:11,467 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:11,481 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:32:11,492 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:32:11,516 [1] INFO EasyProject.App - GetCategories() invoked.
+2022-01-13 10:32:11,538 [1] INFO EasyProject.App - GetUserInfoWithDept(NurseModel) invoked.
+2022-01-13 10:32:11,557 [1] INFO EasyProject.App - GetCategoriesvalues() invoked.
+2022-01-13 10:32:11,674 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:11,690 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:11,725 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:32:11,741 [1] INFO EasyProject.App - GetProdOutType() invoked.
+2022-01-13 10:32:11,830 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:32:11,848 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:11,860 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:11,870 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:32:11,886 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:32:11,929 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:11,944 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:12,057 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,080 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,092 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,104 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,116 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,128 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,140 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,152 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,164 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,175 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,187 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,197 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,209 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,219 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,231 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,243 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,253 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,263 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,274 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,285 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,296 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,309 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,319 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,329 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,339 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,351 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,361 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,372 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,382 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,393 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:12,416 [1] INFO EasyProject.App - PageLoaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:12,429 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:12,439 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:12,451 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:12,473 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:32:12,484 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:32:12,620 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,636 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,652 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,668 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,683 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,696 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,711 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,724 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,740 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:12,753 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:13,501 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:15,460 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:17,756 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:18,077 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:18,537 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:19,718 [1] INFO EasyProject.App - Constructor LoginPage() invoked.
+2022-01-13 10:32:19,735 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:28,868 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:28,885 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:28,898 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:28,910 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:28,924 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:28,937 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:28,948 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:28,966 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:28,978 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:28,989 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,001 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:29,013 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:29,025 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:29,036 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,050 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:29,064 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:29,075 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,085 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:29,095 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:29,107 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:29,118 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,223 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:29,233 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:29,243 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,253 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:29,266 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:29,281 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:29,295 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,367 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:29,380 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:29,391 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,403 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:29,414 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:29,425 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:29,441 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,478 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:29,489 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:29,499 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,510 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:29,524 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:29,536 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:29,548 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,562 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:29,573 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:29,584 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,595 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:29,605 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:29,615 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:29,628 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,717 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:29,731 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:29,742 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,753 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:29,764 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:29,774 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:29,783 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,898 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:29,913 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:29,925 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:29,938 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:29,950 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:29,960 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:29,975 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:30,053 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:30,108 [1] INFO EasyProject.App - loginBtn_Click(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:30,120 [10] INFO EasyProject.App - Login() invoked.
+2022-01-13 10:32:30,131 [10] INFO EasyProject.App - IdPasswordCheck(NurseModel) invoked.
+2022-01-13 10:32:30,142 [10] INFO EasyProject.App - StringToHash(string) invoked.
+2022-01-13 10:32:30,152 [10] INFO EasyProject.App - CreateSalt(string) invoked.
+2022-01-13 10:32:30,167 [10] INFO EasyProject.App - LoginUserInfo(NurseModel) invoked.
+2022-01-13 10:32:30,177 [10] INFO EasyProject.App - StringToHash(string) invoked.
+2022-01-13 10:32:30,187 [10] INFO EasyProject.App - CreateSalt(string) invoked.
+2022-01-13 10:32:30,202 [10] INFO EasyProject.App - Login_Logging(NurseModel) invoked.
+2022-01-13 10:32:30,218 [10] INFO EasyProject.App - Login Sucess
+2022-01-13 10:32:30,235 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:30,247 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:30,258 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:32:30,268 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:30,278 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:32:30,289 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:32:30,304 [1] INFO EasyProject.App - Constructor TapPage() invoked.
+2022-01-13 10:32:30,316 [1] INFO EasyProject.App - Constructor LoginViewModel() invoked.
+2022-01-13 10:32:30,346 [1] INFO EasyProject.App - GetDeptName_Return_String(int) invoked.
+2022-01-13 10:32:30,371 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:32:30,402 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:32:30,415 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:30,427 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:30,438 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:32:30,494 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:32:30,521 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:30,532 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:30,644 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,654 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,664 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,679 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,688 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,703 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,714 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,725 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,737 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,748 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,759 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,770 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,781 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,791 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,802 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,814 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,827 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,837 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,847 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,857 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,868 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,878 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,889 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,898 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,910 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,920 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,931 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,945 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,958 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,970 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:30,996 [1] INFO EasyProject.App - PageLoaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:31,005 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:31,016 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:31,030 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:32:31,054 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:32:31,065 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:32:31,215 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,231 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,249 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,266 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,281 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,296 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,310 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,340 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,355 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,370 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:31,385 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:36,756 [1] INFO EasyProject.App - SomeSelectionChanged(object, SelectionChangedEventArgs)
+2022-01-13 10:32:39,060 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:39,248 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:41,702 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:41,872 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:42,036 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:42,198 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:42,404 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:42,579 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:42,734 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:42,896 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:42,958 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:43,075 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:43,154 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:43,223 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:43,315 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:43,383 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:43,549 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:44,149 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:45,678 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:46,219 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:46,385 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:46,542 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:46,705 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:46,868 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:47,014 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:47,731 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:48,077 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:48,330 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:48,526 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:48,651 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:48,786 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:49,901 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:49,921 [1] INFO EasyProject.App - EditProduct() invoked.
+2022-01-13 10:32:49,934 [1] INFO EasyProject.App - ChangeProductInfo(ProductShowModel) invoked.
+2022-01-13 10:32:49,955 [1] INFO EasyProject.App - ChangeProductInfo_IMP_DEPT(ProductShowModel) invoked.
+2022-01-13 10:32:49,973 [1] INFO EasyProject.App - GetProductsByDept(DeptModel) invoked.
+2022-01-13 10:32:50,003 [1] INFO EasyProject.App - updateSearchedProducts(bool) invoked.
+2022-01-13 10:32:50,028 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:32:50,042 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:50,057 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:50,069 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:32:50,137 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:32:50,158 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:50,172 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:32:50,185 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:32:50,199 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:32:50,212 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:32:50,390 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,402 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,413 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,425 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,436 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,447 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,461 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,472 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,483 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,493 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,504 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,514 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,526 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,537 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,548 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,560 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,573 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,585 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,598 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,611 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,623 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,635 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,646 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,660 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,675 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,686 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,700 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,712 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,723 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,734 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:32:50,805 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,820 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,835 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,853 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,869 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,890 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,909 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,926 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,953 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,968 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,983 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:32:50,997 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:32:52,081 [1] INFO EasyProject.App - DataGridKeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:32:52,098 [1] INFO EasyProject.App - Constructor LoginPage() invoked.
+2022-01-13 10:32:52,114 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:32:58,419 [1] INFO EasyProject.App - btn_close(object, RoutedEventArgs) invoked.
+2022-01-13 10:32:58,436 [1] INFO EasyProject.App - ==== Terminated Program ====
+2022-01-13 10:32:58,448 [1] INFO EasyProject.App - Logout_For_QuitProgram
+2022-01-13 10:32:58,461 [1] INFO EasyProject.App - Logout_Logging(NurseModel) invoked.
+2022-01-13 10:33:12,246 [1] INFO EasyProject.App - ==== START UP EASY_PROJECT ====
+2022-01-13 10:33:12,309 [1] INFO EasyProject.App - Constructor App() invoked.
+2022-01-13 10:33:12,453 [1] INFO EasyProject.App - OnStartup(StartupEventArgs) invoked.
+2022-01-13 10:33:12,478 [1] INFO EasyProject.App - Constructor MainWindow() invoked.
+2022-01-13 10:33:12,584 [1] INFO EasyProject.App - Constructor LoginPage() invoked.
+2022-01-13 10:33:12,618 [1] INFO EasyProject.App - Constructor LoginViewModel() invoked.
+2022-01-13 10:33:12,645 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:12,662 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:12,679 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:12,916 [1] INFO EasyProject.App - Window1_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:13,580 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:33:15,180 [1] INFO EasyProject.App - checkbox_Checked(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:15,665 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:15,683 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:15,698 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:15,711 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:15,725 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:15,739 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:15,752 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:15,769 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:15,783 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:15,794 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:15,810 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:15,821 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:15,836 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:15,847 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:15,861 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:15,875 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:15,885 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:15,895 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:15,906 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:15,916 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:15,928 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:15,968 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:15,980 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:15,991 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,001 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:16,011 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:16,021 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:16,032 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,098 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:16,111 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:16,123 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,136 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:16,155 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:16,166 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:16,181 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,197 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:16,211 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:16,222 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,233 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:16,246 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:16,257 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:16,267 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,282 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:16,294 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:16,305 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,321 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:16,334 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:16,346 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:16,358 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,441 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:16,454 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:16,464 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,474 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:16,487 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:16,497 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:16,507 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,641 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:16,653 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:16,662 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,673 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:16,684 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:16,694 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:16,706 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:16,851 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:33:16,865 [1] INFO EasyProject.App - loginBtn_Click(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:16,877 [12] INFO EasyProject.App - Login() invoked.
+2022-01-13 10:33:16,889 [12] INFO EasyProject.App - IdPasswordCheck(NurseModel) invoked.
+2022-01-13 10:33:17,272 [12] INFO EasyProject.App - StringToHash(string) invoked.
+2022-01-13 10:33:17,288 [12] INFO EasyProject.App - CreateSalt(string) invoked.
+2022-01-13 10:33:17,333 [12] INFO EasyProject.App - LoginUserInfo(NurseModel) invoked.
+2022-01-13 10:33:17,351 [12] INFO EasyProject.App - StringToHash(string) invoked.
+2022-01-13 10:33:17,363 [12] INFO EasyProject.App - CreateSalt(string) invoked.
+2022-01-13 10:33:17,405 [12] INFO EasyProject.App - Login_Logging(NurseModel) invoked.
+2022-01-13 10:33:17,432 [12] INFO EasyProject.App - Login Sucess
+2022-01-13 10:33:17,456 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:17,468 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:17,478 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:33:17,490 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:33:17,500 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:33:17,511 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:33:17,525 [1] INFO EasyProject.App - Constructor TapPage() invoked.
+2022-01-13 10:33:17,539 [1] INFO EasyProject.App - Constructor LoginViewModel() invoked.
+2022-01-13 10:33:17,566 [1] INFO EasyProject.App - GetDeptName_Return_String(int) invoked.
+2022-01-13 10:33:17,592 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:33:17,606 [1] INFO EasyProject.App - Constructor ProductShowViewModel() invoked.
+2022-01-13 10:33:17,619 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:33:17,635 [1] INFO EasyProject.App - getListbyDept() invoked.
+2022-01-13 10:33:17,647 [1] INFO EasyProject.App - GetProductsByDept(DeptModel) invoked.
+2022-01-13 10:33:17,683 [1] INFO EasyProject.App - updateSearchedProducts(bool) invoked.
+2022-01-13 10:33:17,739 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:33:17,751 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:33:17,762 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:33:17,773 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:33:17,784 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:33:17,795 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:33:17,806 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:33:17,818 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:33:17,827 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:33:17,839 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:33:17,854 [1] INFO EasyProject.App - GetCategories() invoked.
+2022-01-13 10:33:17,874 [1] INFO EasyProject.App - GetUserInfoWithDept(NurseModel) invoked.
+2022-01-13 10:33:17,890 [1] INFO EasyProject.App - GetCategoriesvalues() invoked.
+2022-01-13 10:33:17,927 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:17,942 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:17,978 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:33:17,993 [1] INFO EasyProject.App - GetProdOutType() invoked.
+2022-01-13 10:33:18,053 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:33:18,068 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:33:18,080 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:33:18,092 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:33:18,108 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:33:18,146 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:18,162 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:18,292 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,302 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,313 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,325 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,339 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,350 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,362 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,373 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,383 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,393 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,404 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,414 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,425 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,435 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,446 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,459 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,469 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,480 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,491 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,501 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,511 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,522 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,532 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,544 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,556 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,568 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,580 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,593 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,607 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,618 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:18,639 [1] INFO EasyProject.App - PageLoaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:18,653 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:18,670 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:18,682 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:18,709 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:33:18,721 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:33:18,882 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:18,905 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:18,921 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:18,941 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:18,957 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:18,973 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:18,989 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:19,003 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:19,020 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:19,039 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:20,059 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:20,079 [1] INFO EasyProject.App - Constructor InsertPage() invoked.
+2022-01-13 10:33:20,096 [1] INFO EasyProject.App - Constructor ProductViewModel() invoked.
+2022-01-13 10:33:20,108 [1] INFO EasyProject.App - GetCategoryModels() invoked.
+2022-01-13 10:33:20,130 [1] INFO EasyProject.App - GetProductIn_MinDate(DeptModel) invoked.
+2022-01-13 10:33:20,152 [1] INFO EasyProject.App - dateChanged() invoked.
+2022-01-13 10:33:20,166 [1] INFO EasyProject.App - dateChanged() invoked.
+2022-01-13 10:33:20,177 [1] INFO EasyProject.App - GetProductInByNurse(NurseModel) invoked.
+2022-01-13 10:33:20,256 [1] INFO EasyProject.App - Constructor InsertPage_Excel() invoked.
+2022-01-13 10:33:20,276 [1] INFO EasyProject.App - Constructor IncomingOutgoingPageBtn() invoked.
+2022-01-13 10:33:20,902 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:33:21,549 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:33:21,687 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:33:21,710 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:21,722 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:21,798 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,811 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,829 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,843 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,858 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,869 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,881 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,894 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,905 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,916 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,928 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,943 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,955 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,966 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,978 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:21,990 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,002 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,013 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,028 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,055 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,065 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,080 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,093 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,104 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,115 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,128 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,141 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,154 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,166 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,176 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:22,200 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:22,215 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:22,226 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:22,252 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:33:22,274 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:33:22,399 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,436 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,455 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,470 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,486 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,502 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,517 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,533 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,552 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,584 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:22,658 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:33:24,931 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:24,947 [1] INFO EasyProject.App - Constructor IncomingOutgoingPageBtn() invoked.
+2022-01-13 10:33:24,962 [1] INFO EasyProject.App - Constructor ProductInOutViewModel() invoked.
+2022-01-13 10:33:24,977 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:33:24,996 [1] INFO EasyProject.App - GetProductIn_MinDate(DeptModel) invoked.
+2022-01-13 10:33:25,168 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:33:25,181 [1] INFO EasyProject.App - getProductIn_By_Date() invoked.
+2022-01-13 10:33:25,194 [1] INFO EasyProject.App - getProductOut_By_Date() invoked.
+2022-01-13 10:33:25,206 [1] INFO EasyProject.App - DashboardPrint2(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,220 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,314 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:33:25,327 [1] INFO EasyProject.App - DashboardPrint3(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,339 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,426 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:33:25,439 [1] INFO EasyProject.App - DashboardPrint4(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,452 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,536 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:33:25,549 [1] INFO EasyProject.App - DashboardPrint5(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,566 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,650 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:33:25,663 [1] INFO EasyProject.App - getProductIn_By_Date() invoked.
+2022-01-13 10:33:25,675 [1] INFO EasyProject.App - GetProductIn(DeptModel, DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,700 [1] INFO EasyProject.App - updateInSearchedProducts() invoked.
+2022-01-13 10:33:25,711 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:33:25,725 [1] INFO EasyProject.App - UpdateInRecordCount() invoked.
+2022-01-13 10:33:25,736 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:33:25,748 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:33:25,759 [1] INFO EasyProject.App - UpdateInCollection(IEnumerable<ProductInOutModel>) invoked.
+2022-01-13 10:33:25,771 [1] INFO EasyProject.App - getProductOut_By_Date() invoked.
+2022-01-13 10:33:25,783 [1] INFO EasyProject.App - DashboardPrint2(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,795 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,820 [1] INFO EasyProject.App - DashboardPrint3(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,830 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,902 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:33:25,915 [1] INFO EasyProject.App - DashboardPrint4(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:25,928 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,015 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:33:26,030 [1] INFO EasyProject.App - DashboardPrint5(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,043 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,075 [1] INFO EasyProject.App - GetProductOut_MinDate(DeptModel) invoked.
+2022-01-13 10:33:26,143 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:33:26,167 [1] INFO EasyProject.App - getProductOut_By_Date() invoked.
+2022-01-13 10:33:26,179 [1] INFO EasyProject.App - DashboardPrint4(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,190 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,266 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:33:26,277 [1] INFO EasyProject.App - DashboardPrint5(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,291 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,382 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:33:26,393 [1] INFO EasyProject.App - getProductOut_By_Date() invoked.
+2022-01-13 10:33:26,405 [1] INFO EasyProject.App - GetProductOut(DeptModel, DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,420 [1] INFO EasyProject.App - updateOutSearchedProducts() invoked.
+2022-01-13 10:33:26,435 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:33:26,450 [1] INFO EasyProject.App - UpdateOutRecordCount() invoked.
+2022-01-13 10:33:26,462 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:33:26,479 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:33:26,492 [1] INFO EasyProject.App - UpdateOutCollection(IEnumerable<ProductInOutModel>) invoked.
+2022-01-13 10:33:26,503 [1] INFO EasyProject.App - UpdateOutRecordCount() invoked.
+2022-01-13 10:33:26,514 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:33:26,525 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:33:26,536 [1] INFO EasyProject.App - UpdateOutCollection(IEnumerable<ProductInOutModel>) invoked.
+2022-01-13 10:33:26,549 [1] INFO EasyProject.App - DashboardPrint4(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,563 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,638 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:33:26,654 [1] INFO EasyProject.App - DashboardPrint5(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,667 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,699 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:33:26,718 [1] INFO EasyProject.App - GetProdOutType() invoked.
+2022-01-13 10:33:26,738 [1] INFO EasyProject.App - DashboardPrint_Pie() invoked.
+2022-01-13 10:33:26,751 [1] INFO EasyProject.App - GetDiscardTotalCount(DeptModel, ProductInOutModel) invoked.
+2022-01-13 10:33:26,823 [1] INFO EasyProject.App - Constructor IncomingOutgoingList1Page() invoked.
+2022-01-13 10:33:26,850 [1] INFO EasyProject.App - UpdateInRecordCount() invoked.
+2022-01-13 10:33:26,863 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:33:26,876 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:33:26,888 [1] INFO EasyProject.App - UpdateInCollection(IEnumerable<ProductInOutModel>) invoked.
+2022-01-13 10:33:26,902 [1] INFO EasyProject.App - DashboardPrint2(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,913 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,934 [1] INFO EasyProject.App - DashboardPrint3(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:26,945 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:27,001 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:33:27,014 [1] INFO EasyProject.App - DashboardPrint_Pie() invoked.
+2022-01-13 10:33:27,025 [1] INFO EasyProject.App - GetDiscardTotalCount(DeptModel, ProductInOutModel) invoked.
+2022-01-13 10:33:27,042 [1] INFO EasyProject.App - Constructor Incoming_GraphPage() invoked.
+2022-01-13 10:33:27,057 [1] INFO EasyProject.App - DashboardPrint3(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:27,067 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:27,127 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:33:27,141 [1] INFO EasyProject.App - DashboardPrint2(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:27,152 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:33:27,786 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:33:28,108 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:33:28,464 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:33:28,502 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:33:28,523 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:28,535 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:28,636 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,648 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,660 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,672 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,684 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,694 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,706 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,716 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,728 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,740 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,751 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,763 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,775 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,787 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,797 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,809 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,821 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,831 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,844 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,854 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,865 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,879 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,891 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,902 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,915 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,929 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,941 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,953 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,964 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,975 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:28,995 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:29,008 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:29,020 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:29,050 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:33:29,065 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:33:29,221 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,237 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,254 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,268 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,284 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,299 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,344 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,358 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,374 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,391 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:29,851 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:29,873 [1] INFO EasyProject.App - Constructor InsertPage() invoked.
+2022-01-13 10:33:29,930 [1] INFO EasyProject.App - Constructor InsertPage_Excel() invoked.
+2022-01-13 10:33:29,949 [1] INFO EasyProject.App - Constructor IncomingOutgoingPageBtn() invoked.
+2022-01-13 10:33:30,522 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:33:30,562 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:33:30,579 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:30,594 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:30,686 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,700 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,710 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,724 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,733 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,744 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,754 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,763 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,777 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,787 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,798 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,809 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,822 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,833 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,844 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,856 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,869 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,880 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,892 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,905 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,915 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,928 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,940 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,951 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,962 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,972 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:30,982 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:31,006 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:31,016 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:31,027 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:31,046 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:31,066 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:31,080 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:31,106 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:33:31,117 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:33:31,240 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,280 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,300 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,326 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,341 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,371 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,389 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,408 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,427 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,444 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:31,858 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:31,875 [1] INFO EasyProject.App - Constructor OrderPage() invoked.
+2022-01-13 10:33:32,339 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:33:32,375 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:33:32,394 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:32,410 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:32,518 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,529 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,540 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,551 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,562 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,572 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,584 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,596 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,610 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,626 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,638 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,653 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,666 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,677 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,689 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,702 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,713 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,727 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,740 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,755 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,766 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,779 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,791 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,810 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,827 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,839 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,852 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,867 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,879 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,890 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:32,911 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:32,930 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:32,943 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:32,969 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:33:32,991 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:33:33,126 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,155 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,176 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,191 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,218 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,233 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,262 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,280 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,298 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:33,314 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:37,651 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:37,668 [1] INFO EasyProject.App - Constructor OrderPage() invoked.
+2022-01-13 10:33:38,316 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:33:38,921 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:33:38,952 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:33:38,977 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:38,988 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:39,080 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,092 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,112 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,124 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,135 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,146 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,160 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,171 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,183 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,195 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,208 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,219 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,230 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,241 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,253 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,268 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,280 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,294 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,306 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,319 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,333 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,346 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,359 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,374 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,385 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,397 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,408 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,421 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,433 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,444 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:39,469 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:39,482 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:39,495 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:39,520 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:33:39,530 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:33:39,679 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,697 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,711 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,727 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,742 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,777 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,795 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,839 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,874 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:39,889 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:41,244 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:41,261 [1] INFO EasyProject.App - Constructor OrderPage() invoked.
+2022-01-13 10:33:42,443 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:33:43,108 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:33:43,140 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:33:43,154 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:43,165 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:43,261 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,273 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,286 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,298 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,310 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,320 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,332 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,342 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,354 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,364 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,376 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,388 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,402 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,415 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,427 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,440 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,453 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,464 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,477 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,489 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,500 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,511 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,521 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,532 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,546 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,557 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,568 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,580 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,592 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,604 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:33:43,624 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:33:43,636 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:43,648 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:33:43,682 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:33:43,695 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:33:43,824 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:43,839 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:43,873 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:43,888 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:43,903 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:43,922 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:43,938 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:43,974 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:43,987 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:33:44,003 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:30,473 [1] INFO EasyProject.App - ==== START UP EASY_PROJECT ====
+2022-01-13 10:41:30,562 [1] INFO EasyProject.App - Constructor App() invoked.
+2022-01-13 10:41:30,753 [1] INFO EasyProject.App - OnStartup(StartupEventArgs) invoked.
+2022-01-13 10:41:30,770 [1] INFO EasyProject.App - Constructor MainWindow() invoked.
+2022-01-13 10:41:30,862 [1] INFO EasyProject.App - Constructor LoginPage() invoked.
+2022-01-13 10:41:30,903 [1] INFO EasyProject.App - Constructor LoginViewModel() invoked.
+2022-01-13 10:41:30,938 [1] INFO EasyProject.App - Attach(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:30,954 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:30,976 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:31,018 [1] INFO EasyProject.App - checkbox_Checked(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:31,198 [1] INFO EasyProject.App - Window1_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:32,244 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:32,277 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:32,290 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,304 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:32,318 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:32,333 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:32,346 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,362 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:32,379 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:32,390 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,409 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:32,421 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:32,435 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:32,450 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,474 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:32,491 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:32,507 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,524 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:32,538 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:32,553 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:32,567 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,604 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:32,617 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:32,630 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,641 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:32,654 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:32,669 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:32,682 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,757 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:32,773 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:32,785 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,798 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:32,810 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:32,850 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:32,871 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,891 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:32,903 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:32,916 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,929 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:32,944 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:32,957 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:32,970 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:32,985 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:32,998 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:33,015 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:33,025 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:33,037 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:33,047 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:33,059 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:33,133 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:33,176 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:33,191 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:33,204 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:33,215 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:33,227 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:33,238 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:33,336 [1] INFO EasyProject.App - password_PwBox_KeyDown(object, KeyEventArgs) invoked.
+2022-01-13 10:41:33,351 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:33,362 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:33,375 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:33,386 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:33,400 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:33,411 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:33,828 [1] INFO EasyProject.App - loginBtn_Click(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:33,850 [8] INFO EasyProject.App - Login() invoked.
+2022-01-13 10:41:33,926 [8] INFO EasyProject.App - IdPasswordCheck(NurseModel) invoked.
+2022-01-13 10:41:34,334 [8] INFO EasyProject.App - StringToHash(string) invoked.
+2022-01-13 10:41:34,349 [8] INFO EasyProject.App - CreateSalt(string) invoked.
+2022-01-13 10:41:34,405 [8] INFO EasyProject.App - LoginUserInfo(NurseModel) invoked.
+2022-01-13 10:41:34,422 [8] INFO EasyProject.App - StringToHash(string) invoked.
+2022-01-13 10:41:34,434 [8] INFO EasyProject.App - CreateSalt(string) invoked.
+2022-01-13 10:41:34,459 [8] INFO EasyProject.App - Login_Logging(NurseModel) invoked.
+2022-01-13 10:41:34,489 [8] INFO EasyProject.App - Login Sucess
+2022-01-13 10:41:34,509 [1] INFO EasyProject.App - PasswordChanged(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:34,523 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:34,535 [1] INFO EasyProject.App - SetPassword(DependencyObject, string) invoked.
+2022-01-13 10:41:34,572 [1] INFO EasyProject.App - OnPasswordPropertyChanged(DependencyObject, DependencyPropertyChangedEventArgs) invoked.
+2022-01-13 10:41:34,595 [1] INFO EasyProject.App - GetIsUpdating(DependencyObject) invoked.
+2022-01-13 10:41:34,610 [1] INFO EasyProject.App - SetIsUpdating(DependencyObject, bool) invoked.
+2022-01-13 10:41:34,631 [1] INFO EasyProject.App - Constructor TapPage() invoked.
+2022-01-13 10:41:34,647 [1] INFO EasyProject.App - Constructor LoginViewModel() invoked.
+2022-01-13 10:41:34,678 [1] INFO EasyProject.App - GetDeptName_Return_String(int) invoked.
+2022-01-13 10:41:34,702 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:41:34,715 [1] INFO EasyProject.App - Constructor ProductShowViewModel() invoked.
+2022-01-13 10:41:34,726 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:41:34,747 [1] INFO EasyProject.App - getListbyDept() invoked.
+2022-01-13 10:41:34,760 [1] INFO EasyProject.App - GetProductsByDept(DeptModel) invoked.
+2022-01-13 10:41:34,798 [1] INFO EasyProject.App - updateSearchedProducts(bool) invoked.
+2022-01-13 10:41:34,811 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:34,824 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:41:34,837 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:34,850 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:34,862 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:41:34,874 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:41:34,883 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:34,898 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:34,911 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:41:34,922 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:41:34,946 [1] INFO EasyProject.App - GetCategories() invoked.
+2022-01-13 10:41:34,970 [1] INFO EasyProject.App - GetUserInfoWithDept(NurseModel) invoked.
+2022-01-13 10:41:34,991 [1] INFO EasyProject.App - GetCategoriesvalues() invoked.
+2022-01-13 10:41:35,032 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:35,049 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:35,090 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:41:35,105 [1] INFO EasyProject.App - GetProdOutType() invoked.
+2022-01-13 10:41:35,166 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:41:35,205 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:35,224 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:35,241 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:41:35,265 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:41:35,315 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:35,333 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:35,483 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,510 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,520 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,531 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,544 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,556 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,568 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,581 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,593 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,606 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,617 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,633 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,647 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,661 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,674 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,688 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,700 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,711 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,724 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,734 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,746 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,761 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,774 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,785 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,822 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,848 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,861 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,876 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,888 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,901 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:35,922 [1] INFO EasyProject.App - PageLoaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:35,937 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:35,949 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:35,960 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:35,987 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:41:36,002 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:41:36,159 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,214 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,234 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,259 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,281 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,305 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,323 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,356 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,373 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:36,388 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:37,274 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:40,268 [1] INFO EasyProject.App - MainWindow_MouseLeftButtonDown(object, SizeChangedEventArgs) invoked.
+2022-01-13 10:41:40,862 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:40,882 [1] INFO EasyProject.App - Constructor OrderPage() invoked.
+2022-01-13 10:41:42,746 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:42,765 [1] INFO EasyProject.App - Constructor InsertPage() invoked.
+2022-01-13 10:41:42,778 [1] INFO EasyProject.App - Constructor ProductViewModel() invoked.
+2022-01-13 10:41:42,793 [1] INFO EasyProject.App - GetCategoryModels() invoked.
+2022-01-13 10:41:42,819 [1] INFO EasyProject.App - GetProductIn_MinDate(DeptModel) invoked.
+2022-01-13 10:41:42,860 [1] INFO EasyProject.App - dateChanged() invoked.
+2022-01-13 10:41:42,877 [1] INFO EasyProject.App - dateChanged() invoked.
+2022-01-13 10:41:42,894 [1] INFO EasyProject.App - GetProductInByNurse(NurseModel) invoked.
+2022-01-13 10:41:42,934 [1] INFO EasyProject.App - Constructor InsertPage_Excel() invoked.
+2022-01-13 10:41:42,972 [1] INFO EasyProject.App - Constructor IncomingOutgoingPageBtn() invoked.
+2022-01-13 10:41:45,044 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:45,063 [1] INFO EasyProject.App - Constructor IncomingOutgoingPageBtn() invoked.
+2022-01-13 10:41:45,081 [1] INFO EasyProject.App - Constructor ProductInOutViewModel() invoked.
+2022-01-13 10:41:45,106 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:41:45,127 [1] INFO EasyProject.App - GetProductIn_MinDate(DeptModel) invoked.
+2022-01-13 10:41:45,225 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:41:45,243 [1] INFO EasyProject.App - getProductIn_By_Date() invoked.
+2022-01-13 10:41:45,260 [1] INFO EasyProject.App - getProductOut_By_Date() invoked.
+2022-01-13 10:41:45,276 [1] INFO EasyProject.App - DashboardPrint2(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,289 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,349 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:41:45,363 [1] INFO EasyProject.App - DashboardPrint3(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,377 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,441 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:41:45,455 [1] INFO EasyProject.App - DashboardPrint4(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,466 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,523 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:41:45,535 [1] INFO EasyProject.App - DashboardPrint5(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,547 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,602 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:41:45,614 [1] INFO EasyProject.App - getProductIn_By_Date() invoked.
+2022-01-13 10:41:45,626 [1] INFO EasyProject.App - GetProductIn(DeptModel, DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,646 [1] INFO EasyProject.App - updateInSearchedProducts() invoked.
+2022-01-13 10:41:45,659 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:41:45,674 [1] INFO EasyProject.App - UpdateInRecordCount() invoked.
+2022-01-13 10:41:45,685 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:41:45,704 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:41:45,719 [1] INFO EasyProject.App - UpdateInCollection(IEnumerable<ProductInOutModel>) invoked.
+2022-01-13 10:41:45,731 [1] INFO EasyProject.App - getProductOut_By_Date() invoked.
+2022-01-13 10:41:45,742 [1] INFO EasyProject.App - DashboardPrint2(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,755 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,785 [1] INFO EasyProject.App - DashboardPrint3(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,799 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,851 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:41:45,865 [1] INFO EasyProject.App - DashboardPrint4(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,876 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,913 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:41:45,931 [1] INFO EasyProject.App - DashboardPrint5(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,944 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:45,971 [1] INFO EasyProject.App - GetProductOut_MinDate(DeptModel) invoked.
+2022-01-13 10:41:46,018 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:41:46,030 [1] INFO EasyProject.App - getProductOut_By_Date() invoked.
+2022-01-13 10:41:46,043 [1] INFO EasyProject.App - DashboardPrint4(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,058 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,104 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:41:46,116 [1] INFO EasyProject.App - DashboardPrint5(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,129 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,209 [1] ERROR EasyProject.App - ORA-00932: 일관성 없는 데이터 유형: DATE이(가) 필요하지만 NUMBER임
+2022-01-13 10:41:46,240 [1] INFO EasyProject.App - getProductOut_By_Date() invoked.
+2022-01-13 10:41:46,274 [1] INFO EasyProject.App - GetProductOut(DeptModel, DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,299 [1] INFO EasyProject.App - updateOutSearchedProducts() invoked.
+2022-01-13 10:41:46,319 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:41:46,333 [1] INFO EasyProject.App - UpdateOutRecordCount() invoked.
+2022-01-13 10:41:46,344 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:41:46,356 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:41:46,370 [1] INFO EasyProject.App - UpdateOutCollection(IEnumerable<ProductInOutModel>) invoked.
+2022-01-13 10:41:46,384 [1] INFO EasyProject.App - UpdateOutRecordCount() invoked.
+2022-01-13 10:41:46,395 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:41:46,409 [1] INFO EasyProject.App - UpdateOutEnableState() invoked.
+2022-01-13 10:41:46,423 [1] INFO EasyProject.App - UpdateOutCollection(IEnumerable<ProductInOutModel>) invoked.
+2022-01-13 10:41:46,437 [1] INFO EasyProject.App - DashboardPrint4(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,456 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,509 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:41:46,535 [1] INFO EasyProject.App - DashboardPrint5(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,547 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,577 [1] INFO EasyProject.App - GetDepts() invoked.
+2022-01-13 10:41:46,596 [1] INFO EasyProject.App - GetProdOutType() invoked.
+2022-01-13 10:41:46,615 [1] INFO EasyProject.App - DashboardPrint_Pie() invoked.
+2022-01-13 10:41:46,628 [1] INFO EasyProject.App - GetDiscardTotalCount(DeptModel, ProductInOutModel) invoked.
+2022-01-13 10:41:46,668 [1] INFO EasyProject.App - Constructor IncomingOutgoingList1Page() invoked.
+2022-01-13 10:41:46,686 [1] INFO EasyProject.App - UpdateInRecordCount() invoked.
+2022-01-13 10:41:46,696 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:41:46,708 [1] INFO EasyProject.App - UpdateInEnableState() invoked.
+2022-01-13 10:41:46,719 [1] INFO EasyProject.App - UpdateInCollection(IEnumerable<ProductInOutModel>) invoked.
+2022-01-13 10:41:46,736 [1] INFO EasyProject.App - DashboardPrint2(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,750 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,780 [1] INFO EasyProject.App - DashboardPrint3(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,794 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,837 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:41:46,852 [1] INFO EasyProject.App - DashboardPrint_Pie() invoked.
+2022-01-13 10:41:46,863 [1] INFO EasyProject.App - GetDiscardTotalCount(DeptModel, ProductInOutModel) invoked.
+2022-01-13 10:41:46,886 [1] INFO EasyProject.App - Constructor Incoming_GraphPage() invoked.
+2022-01-13 10:41:46,908 [1] INFO EasyProject.App - DashboardPrint3(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,921 [1] INFO EasyProject.App - incomingCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,953 [1] ERROR EasyProject.App - 열에 널 데이터가 있습니다.
+2022-01-13 10:41:46,970 [1] INFO EasyProject.App - DashboardPrint2(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:46,983 [1] INFO EasyProject.App - ReleaseCases_Info(DateTime?, DateTime?) invoked.
+2022-01-13 10:41:47,555 [1] INFO EasyProject.App - TabButtonClick(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:47,570 [1] INFO EasyProject.App - Constructor StatusPage() invoked.
+2022-01-13 10:41:47,603 [1] INFO EasyProject.App - UpdateRecordCount() invoked.
+2022-01-13 10:41:47,616 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:47,628 [1] INFO EasyProject.App - UpdateEnableState() invoked.
+2022-01-13 10:41:47,640 [1] INFO EasyProject.App - UpdateCollection(IEnumerable<ProductShowModel>) invoked.
+2022-01-13 10:41:47,691 [1] INFO EasyProject.App - Constructor DeptCate_GraphPage() invoked.
+2022-01-13 10:41:47,704 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:47,717 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:47,822 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,835 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,848 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,861 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,873 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,885 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,897 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,914 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,925 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,939 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,949 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,961 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,975 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:47,987 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,001 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,017 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,029 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,043 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,059 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,079 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,098 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,112 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,126 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,137 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,150 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,160 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,171 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,183 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,195 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,206 [1] INFO EasyProject.App - Convert(object, Type, object, CultureInfo) invoked.
+2022-01-13 10:41:48,227 [1] INFO EasyProject.App - MainWindow_Loaded(object, RoutedEventArgs) invoked.
+2022-01-13 10:41:48,240 [1] INFO EasyProject.App - DashboardPrint1(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:48,255 [1] INFO EasyProject.App - Get_Dept_Category_Number_RemainExpire(DeptModel, CategoryModel, int) invoked.
+2022-01-13 10:41:48,280 [1] INFO EasyProject.App - DashboardPrint2(DeptModel) invoked.
+2022-01-13 10:41:48,292 [1] INFO EasyProject.App - Dept_Category_Mount(DeptModel) invoked.
+2022-01-13 10:41:48,434 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,450 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,465 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,480 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,496 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,515 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,531 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,545 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,562 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
+2022-01-13 10:41:48,580 [1] INFO EasyProject.App - Constructor OrderPopupBoxPage() invoked.
