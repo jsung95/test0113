@@ -213,7 +213,7 @@
                         <DataGrid x:Name="dataGrid" Grid.Row="1" FocusVisualStyle="{x:Null}"
                             HorizontalAlignment="Left" Margin="10 0"
                             AllowDrop="False" PreviewKeyDown="DataGridKeyDown"
-                            VerticalAlignment="Top" AutoGenerateColumns="False"
+                            VerticalAlignment="Top" AutoGenerateColumns="False" CanUserAddRows="False"
                             ColumnWidth="*" ItemsSource="{Binding Products}" SelectedItem="{Binding SelectedProduct}" SelectionUnit="FullRow" Cursor="Hand">
 
                         
